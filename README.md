@@ -1,3 +1,4 @@
 # 🎨 Color Picker
 
-Follow the instructions in the workshop to finish the assignment!
+A simple color picker that explores how to use props to build reusable components in React.
+
