@@ -2,7 +2,6 @@ import { useState } from "react";
 
 //this is the child
 const Color = (props) => {
-  console.log(props.selectedColor);
   return <div className={`${props.color} ${(props.currentColor === props.color) ? 'selected' : ''}`} onClick={() => props.setSelectedColor(props.color)}></div>
 }
 
